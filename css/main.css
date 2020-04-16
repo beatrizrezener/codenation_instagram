@@ -43,3 +43,32 @@
 	border: none;
 	background-color: transparent;
 }
+
+.stories {
+	display: flex;
+	padding: 16px 8px;
+}
+
+.stories__thumbnail {
+	height: 78px;
+	width: 78px;
+	overflow: hidden;
+	margin-right: 16px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.stories__thumbnail img {
+	height: 72px;
+	width: 72px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.stories__thumbnail--hasNew {
+    background: linear-gradient(45deg, rgba(245,160,77,1) 0%, rgba(160,15,139,1) 100%);
+}
+
+
