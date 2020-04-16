@@ -5,3 +5,41 @@
 *:before {
 	box-sizing: border-box;
 }
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 728px) {
+	.container {
+		width: 728px;
+	}
+}
+
+.header {
+	padding: 8px 16px;
+	left: 0;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between; 
+}
+
+.header__logo {
+	height: 40px;
+	/* elementos um ao lado do outro (inline) e possibilidade de definir altura/largura (block) */
+	display: inline-block; 
+}
+
+.header_img {
+	height: 100%;
+}
+
+.header__icon {
+	border: none;
+	background-color: transparent;
+}
